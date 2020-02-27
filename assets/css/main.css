@@ -181,9 +181,9 @@ input, select, textarea {
 		font-size: 1.4rem;
 	}
 
-	@media screen and (max-width: 320px) {
-		.heroText {
-			font-size: 1rem;
+	@media screen and (max-width: 660px) {
+		#header .heroText {
+			font-size: 1.5rem;
 		}
 	}
 
@@ -1369,7 +1369,7 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
-			#header .content p {
+			.content p {
 				letter-spacing: 0.1rem;
 				font-size: 1.5rem;
 				line-height: 2;
