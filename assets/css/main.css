@@ -181,7 +181,9 @@ input, select, textarea {
 		font-size: 1.4rem;
 	}
 
-	@media screen and (max-width: 660px) {
+	@media screen 
+	and (max-width: 660px),
+	and (max-device-width: 660px) {
 		#header .heroText {
 			font-size: 1.5rem;
 		}
